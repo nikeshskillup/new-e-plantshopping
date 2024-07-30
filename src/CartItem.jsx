@@ -19,7 +19,7 @@ const CartItem = ({ onContinueShopping, addedToCart, reactivateAddButton}) => {
  
   };
   const handleCheckoutShopping = (e) => {
-    alert('Coming Soon!');
+    alert('Coming Soon!!');
   };
   const handleContinueShopping = (e) => {
     onContinueShopping(e)
