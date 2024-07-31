@@ -15,6 +15,7 @@ function ProductList() {
     };
     const handleParadiseNurseyClick = ()=>{
         e.preventDefault();
+        window.location.href = '/new-e-plantshopping/';
         setShowPlants(false);
         setShowCart(false);
       };
