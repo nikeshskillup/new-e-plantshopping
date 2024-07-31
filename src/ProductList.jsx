@@ -14,7 +14,9 @@ function ProductList() {
         return cartItems ? cartItems.reduce((total, item) => total + item.quantity, 0) : 0;
     };
     const handleParadiseNurseyClick = ()=>{
-        setShowPlants(true);
+        e.preventDefault();
+        setShowPlants(false);
+        setShowCart(false);
       };
 
     const reactivateAddButton=(product)=>{
